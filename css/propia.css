@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+body {
+    margin-bottom: 50% auto;
+    width: 100%;
+    height: 100%;
+    background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -moz-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -moz-linear-gradient(-45deg, #FFDE59 0%, gray 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -webkit-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -webkit-linear-gradient(-45deg, #FFDE59 0%, gray 100%);
+    background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -o-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -o-linear-gradient(-45deg, #FFDE59 0%, gray 100%);
+    background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -ms-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -ms-linear-gradient(-45deg, #FFDE59 0%, gray 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), linear-gradient(to bottom, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), linear-gradient(135deg, #FFDE59 0%, gray 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756', GradientType=1);
+    font-family: 'Noto Serif', serif;
+}
+/*INDEX*/
+#Ingresar{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+}
+
+#TituloIndex{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: #FFDE59;
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    color: #FFDE59;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    margin: 15%;
+}
+
+#banner{
+    width: 100%;
+    padding: 20px;
+    background-color: #FFDE59;
+}
+
+nav{
+    align-items: right;
+}
+
+.cuerpo{
+    background-color: black;
+}
+
+.carousel-inner img {
+    width: 30%;
+    height: auto;
+    margin-left: 33%;
+}
+
+/*PRINCIPAL*/
+
+#PaginaPrincipal{
+    margin-bottom: 10%;
+}
+/*BOTONES*/
+
+#IniciarSesion, #Registrarse, #Ingresar, #guardar, .btn-default, .btn-primary{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: black;
+    color: #FFDE59;
+}
+
+#IniciarSesion:hover, #Registrarse:hover,#Ingresar:hover, #guardar:hover, .btn-default:hover, .btn-primary:hover{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: #FFDE59;
+    color: black;
+}
+
+#principal{
+    color: #FFDE59;
+}
+
+#principal:hover{
+    color: black;
+}
+
+.btn-primary{
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+#Registrarse, #IniciarSesion{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+/*CAMBIAR CONTRASEÑA*/
+
+/*CAMBIAR USUARIO*/
+
+#form2Example33{
+    margin-right: 10em;
+}
+
+#CambiarUsuario{
+    margin-bottom: 30%;
+}
+
+/*CERTIFICADO DE AFILIACION*/
+
+#Certificados{
+    margin-bottom: 17%;
+}
+
+#Formularios{
+    margin-top: 3em;
+}
+
+/*LISTAR CLIENTE*/
+#InfoUsuario{
+    
+    padding-right: 5%;
+}
+
+/*LISTAR EMPLEADO*/
+#TituloTabla{
+    background-color: black;
+    color: #FFDE59;
+}
+/*BOTONES DEL LISTAR*/
+#info{
+    background-color: #FFDE59;
+}
+
+/*FAMILIAR*/
+#Familiar{
+    margin-bottom: 30%;    
+}
+
+#TextoFamiliar, #TextoMascota{
+    margin-top: 7%;
+}
+
+#TablaFamiliar, #TablaIndividual, #TablaMascota{
+    color: white;
+}
+
+#TextoPlan{
+    margin-top: 5%;
+}
+
+/*INDIVIDUAL*/
+#Individual{
+    margin-bottom: 30%;
+}
+
+#TextoIndividual{
+    margin-top: 10%;
+}
+
+/*MASCOTA*/
+#carrusel{
+    margin-bottom: 4%;
+    padding-bottom: 10%;
+}
+
+/*REGISTRAR PLAN*/
+#guardar{
+    margin: 1em;
+}
